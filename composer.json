@@ -16,7 +16,7 @@
         "laravel/tinker": "^2.9",
         "orchid/crud": "^4.3",
         "orchid/platform": "^14.44",
-        "tightenco/ziggy": "^2.0"
+        "tightenco/ziggy": "^2.4"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

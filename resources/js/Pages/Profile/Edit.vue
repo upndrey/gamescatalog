@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
-import DeleteUserForm from './Partials/DeleteUserForm.vue';
-import UpdatePasswordForm from './Partials/UpdatePasswordForm.vue';
-import UpdateProfileInformationForm from './Partials/UpdateProfileInformationForm.vue';
+import DeleteUserForm from '../../Components/Forms/DeleteUserForm.vue';
+import UpdatePasswordForm from '../../Components/Forms/UpdatePasswordForm.vue';
+import UpdateProfileInformationForm from '../../Components/Forms/UpdateProfileInformationForm.vue';
 import { Head } from '@inertiajs/vue3';
+import GuestLayout from "@/Layouts/GuestLayout.vue";
 
 defineProps<{
     mustVerifyEmail?: boolean;
@@ -14,7 +14,7 @@ defineProps<{
 <template>
     <Head title="Profile" />
 
-    <AuthenticatedLayout>
+    <GuestLayout>
         <template #header>
             <h2
                 class="text-xl font-semibold leading-tight text-gray-800 dark:text-gray-200"
@@ -48,5 +48,5 @@ defineProps<{
                 </div>
             </div>
         </div>
-    </AuthenticatedLayout>
+    </GuestLayout>
 </template>

@@ -6,6 +6,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 
+/**
+ * TODO: delete if not needed
+ */
 class EmailVerificationNotificationController extends Controller
 {
     /**

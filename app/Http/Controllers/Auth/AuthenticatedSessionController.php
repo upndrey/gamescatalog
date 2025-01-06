@@ -11,6 +11,9 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use Inertia\Response;
 
+/**
+ * TODO: delete if not needed
+ */
 class AuthenticatedSessionController extends Controller
 {
     /**

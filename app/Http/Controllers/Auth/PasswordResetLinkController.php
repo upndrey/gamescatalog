@@ -10,6 +10,9 @@ use Illuminate\Validation\ValidationException;
 use Inertia\Inertia;
 use Inertia\Response;
 
+/**
+ * TODO: delete if not needed
+ */
 class PasswordResetLinkController extends Controller
 {
     /**

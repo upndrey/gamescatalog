@@ -13,6 +13,9 @@ use Illuminate\Validation\Rules;
 use Inertia\Inertia;
 use Inertia\Response;
 
+/**
+ * TODO: delete if not needed
+ */
 class RegisteredUserController extends Controller
 {
     /**

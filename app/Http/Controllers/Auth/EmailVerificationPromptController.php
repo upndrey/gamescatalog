@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 use Inertia\Response;
 
+/**
+ * TODO: delete if not needed
+ */
 class EmailVerificationPromptController extends Controller
 {
     /**

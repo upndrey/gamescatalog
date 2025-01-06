@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules\Password;
 
+/**
+ * TODO: delete if not needed
+ */
 class PasswordController extends Controller
 {
     /**
